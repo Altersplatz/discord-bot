@@ -4,10 +4,11 @@ from discord.ext import commands
 import os
 
 client = commands.Bot(command_prefix = '>')
+client.remove_command('help')
 
 @client.event
 async def on_ready():
-    await client.change_presence(activity=discord.Game("Learning Physics!"))
+    await client.change_presence(activity=discord.Game(">help"))
     print('Logged in as ' + client.user.name)
 
 @client.event
