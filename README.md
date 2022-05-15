@@ -7,6 +7,7 @@ A powerful bot to moderate Altersplatz's Discord server.
 ### Information Commands
 
 - `>ping`: Check if the bot is online.
+- `>help`: Know more about the bot commands.
 
 ### Moderation Commands
 
